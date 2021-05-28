@@ -4,7 +4,8 @@
 
     'summary': """
        
-        This module allows you to give the TDS in odoo payments 
+        This module allows you to give the TDS in odoo payments in odoo payments and 
+        generate the corresponding report in excel format. 
 
         """,
 
@@ -39,6 +40,7 @@
         'views/views.xml',
         'views/account_payment_view.xml',
         'views/templates.xml',
+        'views/report_view.xml',
     ],
     'images': ['static/description/banner.png'],
     # only loaded in demonstration mode
