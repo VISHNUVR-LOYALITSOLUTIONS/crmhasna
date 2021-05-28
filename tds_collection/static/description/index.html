@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+    
+    <section class="oe_container oe_dark lead">
+        
+        <div class="oe_row oe_spaced" style="margin-top:20px;margin-bottom:20px;">
+            <h2 class="oe_slogan" style="color:#38ACEC;font-family:times new roman;margin-top:20px;margin-bottom:20px;">
+               TDS Payment
+            </h2>
+           
+	    </div>
+        
+        <div class="oe_row" style="width: 100% !important;">
+            <div class="oe_span12" style="width: 100% !important;">
+            <div class="panel panel-primary" style="border:none">
+                <div class="panel-body">
+                     <div class="alert alert-info" style="color:black;font-size: 20px;">
+                            <strong>Features</strong>
+                            </div>
+                    <ul class="list-unstyled">
+<!--                        <div class="alert alert-info" style="background-color:#F1F1F1;color:#38ACEC;"><strong style="font-size: 20px;">Features </strong></div>-->
+                        <li style="font-size: 18px;">This module allows you to give the TDS (Tax deductible at source - The concept of TDS was introduced with an aim to collect tax from the very source of income.
+                            As per this concept, a person (deductor) who is liable to make payment of specified nature to any other person (deductee) shall deduct tax at source and remit the same into the account of the Central Government.
+                            The deductee from whose income tax has been deducted at source would be entitled to get credit of the amount so deducted on the basis of Form 26AS or TDS certificate issued by the deductor) in odoo payments</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="oe_container oe_dark lead">
+            <div class="oe_row" style="width: 100% !important;">
+            <div class="oe_span12" style="width: 100% !important;">
+                <div class="panel panel-primary" style="border:none">
+                    <div class="panel-body">
+<!--                        <div class="alert alert-info" style="background-color:#F1F1F1;color:#38ACEC;font-size: 20px;">-->
+<!--                            <strong>Configuration & Working</strong>-->
+<!--                        </div>-->
+                        
+                         <div>
+                             <div class="alert alert-info" style="color:black;font-size: 20px;">
+                            <strong>Configuration & Working</strong>
+                            </div>
+                             <br/>
+                             <div align="center">
+
+                                 <strong style="color:black;font-size: 18px;text-align:center;">
+                                     <u>
+                                     STEP 1 - 10% TDS Tax Configuration
+                                    </u>
+                                 </strong>
+
+                             </div>
+                             <br/>
+                             <ul style=" padding: 0 5px; list-style: none; ">
+                                 <li style="display: flex;align-items: center;padding: 8px 0;font-size: 18px;"><i class="fa fa-check-circle-o" style="width:40px; color:#07B700"></i>Accounting ----> Configuration ----> Taxes ----> Create</li>
+
+                             </ul>  
+                             <br/>
+                         </div>
+                        <p>
+                            <img class="oe_demo oe_picture oe_screenshot" width="700px" src="img/tds1.png"/>
+                        </p>
+                    </div>
+                    <br/>
+
+
+                    <div align="center">
+
+                                 <strong style="color:black;font-size: 18px;text-align:center;">
+                                     <u>
+                                     STEP 2 - Chart of Accounts Configuration
+                                    </u>
+                                 </strong>
+
+                             </div>
+                             <br/>
+                             <ul style=" padding: 0 5px; list-style: none; ">
+                                 <li style="display: flex;align-items: center;padding: 8px 0;font-size: 18px;">
+                                     <i class="fa fa-check-circle-o" style="width:40px; color:#07B700"></i>
+                                     Accounting ---> Configuration ---> Chart of Accounts ---> Create
+                                 </li>
+
+                             </ul>
+                             <br/>
+                        <p>
+                            <img class="oe_demo oe_picture oe_screenshot" width="700px" src="img/tds2.png"/>
+
+                            <p>Please ensure that you have checked on allow reconciliation and TDS fields</p>
+                        </p>
+
+                    <br/>
+
+
+                            <div align="center">
+
+                                 <strong style="color:black;font-size: 18px;text-align:center;">
+                                     <u>
+                                     STEP 3 - Create Journal Entry
+                                    </u>
+                                 </strong>
+
+                             </div>
+                             <br/>
+                             <ul style=" padding: 0 5px; list-style: none; ">
+                                 <li style="display: flex;align-items: center;padding: 8px 0;font-size: 18px;">
+                                     <i class="fa fa-check-circle-o" style="width:40px; color:#07B700"></i>
+                                     Accounting ---> Accounting ---> Journal Entry ---> Create
+                                 </li>
+<!--                                 <li style="display: flex;align-items: center;padding: 8px 0;font-size: 18px;">-->
+<!--                                     <i class="fa fa-check-circle-o" style="width:40px; color:#07B700"></i>-->
+<!--                                     Example-->
+
+<!--                                 </li>-->
+<!--                                 <br>-->
+<!--                                     Suppose we are going to make a Payment of Interest of Rs. 50000/- to Mr.Arunu and we are liable-->
+<!--                                     to deduct 10% TDS on it. In this TDS which deducted by us liability of ours. There for we have-->
+<!--                                     Credited TDS Payable Account. And Interest is our Expenses why we have debited the same.-->
+<!--                                     At present we have not make the payment of same that is why we have credited to Party’s Account.-->
+
+                             </ul>
+                             <br/>
+                        <p>
+                            <img class="oe_demo oe_picture oe_screenshot" width="700px" src="img/tds3.png"/>
+
+                            <p>Please give the corresponding tax percentage (TDS 10%) in the
+                    taxes field which we have created before in the chart of account
+                    (E.g.: Interest expense account) of expense you want to post then the credit account
+                    of TDS payable will be automatically calculated and create on the next line</p>
+                        </p>
+
+
+                                  <br/>
+
+
+                            <div align="center">
+
+                                 <strong style="color:black;font-size: 18px;text-align:center;">
+                                     <u>
+                                     STEP 4 - Payment of TDS Collected to the Govt Account
+                                    </u>
+                                 </strong>
+
+                             </div>
+                             <br/>
+                             <ul style=" padding: 0 5px; list-style: none; ">
+                                 <li style="display: flex;align-items: center;padding: 8px 0;font-size: 18px;">
+                                     <i class="fa fa-check-circle-o" style="width:40px; color:#07B700"></i>
+                                     Accounting ---> Vendor ---> Payment ---> Create
+                                 </li>
+
+
+                             </ul>
+                             <br/>
+                        <p>
+                            <img class="oe_demo oe_picture oe_screenshot" width="700px" src="img/tds4.png"/>
+
+                            <p>When you click on the TDS check box the corresponding TDS fields like Account
+                    (Only the chart of accounts which we configured as per Step 2), Challan serial No, Section, Barcode,
+                    Reference No will be appear on the payment window,
+                    you can fill up those data. The TDS amount collected from party should be posted here</p>
+                        </p>
+
+                    <br/>
+                    <b><u>System Generated Journal Entry</u></b><br/>
+                     <img class="oe_demo oe_picture oe_screenshot" width="700px" src="img/tds5.png"/>
+
+
+                    <br/>
+
+                     <div align="center">
+
+                                 <strong style="color:black;font-size: 18px;text-align:center;">
+                                     <u>
+                                     STEP 5 - TDS Account Payment Matching
+                                    </u>
+                                 </strong>
+
+                             </div>
+                             <br/>
+                             <ul style=" padding: 0 5px; list-style: none; ">
+                                 <li style="display: flex;align-items: center;padding: 8px 0;font-size: 18px;">
+                                     <i class="fa fa-check-circle-o" style="width:40px; color:#07B700"></i>
+                                     Click on Payment matching Button
+                                 </li>
+
+
+                             </ul>
+                             <br/>
+                        <p>
+                            <img class="oe_demo oe_picture oe_screenshot" width="700px" src="img/tds6.png"/>
+                        </p>
+
+                    <br/>
+
+                                                 <br/>
+                             <ul style=" padding: 0 5px; list-style: none; ">
+                                 <li style="display: flex;align-items: center;padding: 8px 0;font-size: 18px;">
+                                     <i class="fa fa-check-circle-o" style="width:40px; color:#07B700"></i>
+                                    Click On Check all unreconciled entries
+                                 </li>
+
+
+                             </ul>
+                             <br/>
+                        <p>
+                            <img class="oe_demo oe_picture oe_screenshot" width="700px" src="img/tds7.png"/>
+                        </p>
+
+                    <br/>
+
+                                                 <br/>
+                             <ul style=" padding: 0 5px; list-style: none; ">
+                                 <li style="display: flex;align-items: center;padding: 8px 0;font-size: 18px;">
+                                     <i class="fa fa-check-circle-o" style="width:40px; color:#07B700"></i>
+                                     Select on Particular TDS account Transaction
+                                 </li>
+
+
+                             </ul>
+                             <br/>
+                        <p>
+                            <img class="oe_demo oe_picture oe_screenshot" width="700px" src="img/tds8.png"/>
+                        </p>
+
+                    <br/>
+
+                                                 <br/>
+                             <ul style=" padding: 0 5px; list-style: none; ">
+                                 <li style="display: flex;align-items: center;padding: 8px 0;font-size: 18px;">
+                                     <i class="fa fa-check-circle-o" style="width:40px; color:#07B700"></i>
+                                     Click on Action Button and Select Reconciliation option
+                                 </li>
+
+
+                             </ul>
+                             <br/>
+                        <p>
+                            <img class="oe_demo oe_picture oe_screenshot" width="700px" src="img/tds9.png"/>
+                        </p>
+
+                    <br/>
+
+                                                 <br/>
+                             <ul style=" padding: 0 5px; list-style: none; ">
+                                 <li style="display: flex;align-items: center;padding: 8px 0;font-size: 18px;">
+                                     <i class="fa fa-check-circle-o" style="width:40px; color:#07B700"></i>
+                                     Click on Reconcile Button
+                                 </li>
+
+
+                             </ul>
+                             <br/>
+                        <p>
+                            <img class="oe_demo oe_picture oe_screenshot" width="700px" src="img/tds10.png"/>
+                        </p>
+
+                    <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     <br/>
+
+                     <div align="center">
+
+                                 <strong style="color:black;font-size: 18px;text-align:center;">
+                                     <u>
+                                     STEP 6 - Payment of Party
+                                    </u>
+                                 </strong>
+
+                             </div>
+                             <br/>
+                             <ul style=" padding: 0 5px; list-style: none; ">
+                                 <li style="display: flex;align-items: center;padding: 8px 0;font-size: 18px;">
+                                     <i class="fa fa-check-circle-o" style="width:40px; color:#07B700"></i>
+                                     Accounting ---> Vendor ---> Payment ---> Create
+                                 </li>
+
+
+                             </ul>
+                             <br/>
+                        <p>
+                            <img class="oe_demo oe_picture oe_screenshot" width="700px" src="img/tds_payment.png"/>
+                        </p>
+
+                    <br/>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+
+	<section class="oe_container">
+        <section class="oe_row oe_spaced">
+            <div class="oe_row">
+                    <div class="oe_slogan">
+                        <h3 style="color:#000000;font-size: 25px;">Contact Us</h3><br>
+                        <h3 style="color:#000000;font-size: 20px;">Email: <a href="mailto:support@loyalitsolutions.com" target="_top">support@loyalitsolutions.com</a>
+                            or
+                            <a href="mailto:info@loyalitsolutions.com" target="_top">info@loyalitsolutions.com</a>
+        
+                            <br></h3>
+                        <h3 style="color:#000000;font-size: 20px;">Website: <a href="https://www.loyalitsolutions.com" target="_blank">www.loyalitsolutions.com</a><br></h3>
+                    </div>
+                </div>
+        </section>
+    </section>
+    </body>
+</html>
