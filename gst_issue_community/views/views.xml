@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="gst_issue_community.list">
+      <field name="name">gst_issue_community list</field>
+      <field name="model">gst_issue_community.gst_issue_community</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="gst_issue_community.action_window">
+      <field name="name">gst_issue_community window</field>
+      <field name="res_model">gst_issue_community.gst_issue_community</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="gst_issue_community.action_server">
+      <field name="name">gst_issue_community server</field>
+      <field name="model_id" ref="model_gst_issue_community_gst_issue_community"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="gst_issue_community" id="gst_issue_community.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="gst_issue_community.menu_1" parent="gst_issue_community.menu_root"/>
+    <menuitem name="Menu 2" id="gst_issue_community.menu_2" parent="gst_issue_community.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="gst_issue_community.menu_1_list" parent="gst_issue_community.menu_1"
+              action="gst_issue_community.action_window"/>
+    <menuitem name="Server to list" id="gst_issue_community" parent="gst_issue_community.menu_2"
+              action="gst_issue_community.action_server"/>
+-->
+  </data>
+</odoo>
